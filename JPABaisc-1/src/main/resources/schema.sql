@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS CUSTOMER;
+  
+CREATE TABLE CUSTOMER (
+name VARCHAR(20) NOT NULL,
+    
+ id VARCHAR(10)   PRIMARY KEY,
+  address VARCHAR(50) NOT NULL,
+  age int,
+  bankname VARCHAR(10) NOT NULL,
+  date_join DATE
+  
+);

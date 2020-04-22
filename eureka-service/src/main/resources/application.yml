@@ -1,0 +1,22 @@
+server:
+  port: 9002
+  
+config:
+  server:
+    prop-key: Local Data
+    new-key: New Local Data
+      
+spring:
+  application:
+    name: eureka-service
+    
+    
+    
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8700/eureka
+#  instance:
+#    instance-id: instance2

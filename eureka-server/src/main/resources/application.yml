@@ -1,0 +1,13 @@
+#server:
+#  port: 8700
+
+spring:
+  application:
+    name: DiscoveryServer
+    
+eureka:
+  server:
+    enable-self-preservation: false
+  client:
+    register-with-eureka: false
+    fetch-registry: false

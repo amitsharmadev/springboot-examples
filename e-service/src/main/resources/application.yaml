@@ -1,0 +1,30 @@
+server:
+  port: 9001
+  
+  
+spring:
+  application:
+    name: sample-service
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    properties:
+      hibernet:
+          
+  datasource:
+    url: jdbc:mysql://localhost/test
+    username: root
+    password: root@123
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8700/eureka/
+  instance:
+    hostname: localhost
+
+

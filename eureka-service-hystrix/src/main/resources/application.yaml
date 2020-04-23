@@ -1,0 +1,47 @@
+server:
+  port: 9001
+ 
+config:
+   server:
+     prop-key: Mohit
+     new-key: Manish
+     
+         
+spring:
+  application:
+    name: eureka-service-hystrix
+  cloud:
+    config:
+      uri:
+      - http://localhost:8888
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:mysql://localhost/test
+    username: root
+    password: root@123
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8700/eureka/
+  instance:
+    hostname: localhost
+
+
+management:
+  endpoint:
+    hystrix:
+      stream:
+        enabled: true
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include:
+        - "*"
+

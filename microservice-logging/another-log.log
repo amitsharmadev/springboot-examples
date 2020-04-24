@@ -1,0 +1,78 @@
+2020-04-24 10:37:56.054  INFO 38937 --- [main] c.a.s.MicroserviceLoggingApplication     : Starting MicroserviceLoggingApplication on Amits-MacBook-Pro.local with PID 38937 (/Users/amitsharma/eclipse-workspace/microservice-logging/target/classes started by amitsharma in /Users/amitsharma/eclipse-workspace/microservice-logging)
+2020-04-24 10:37:56.057  INFO 38937 --- [main] c.a.s.MicroserviceLoggingApplication     : No active profile set, falling back to default profiles: default
+2020-04-24 10:37:56.657  INFO 38937 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-04-24 10:37:56.664  INFO 38937 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-24 10:37:56.664  INFO 38937 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-24 10:37:56.712  INFO 38937 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-24 10:37:56.712  INFO 38937 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 625 ms
+2020-04-24 10:37:56.832  INFO 38937 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-24 10:37:56.965  INFO 38937 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path ''
+2020-04-24 10:37:56.968  INFO 38937 --- [main] c.a.s.MicroserviceLoggingApplication     : Started MicroserviceLoggingApplication in 1.236 seconds (JVM running for 2.099)
+2020-04-24 10:38:14.430  INFO 38937 --- [http-nio-9988-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-24 10:38:14.430  INFO 38937 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-24 10:38:14.436  INFO 38937 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-04-24 10:40:21.185  INFO 38937 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-24 10:40:21.186  INFO 38937 --- [RMI TCP Connection(14)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-24 10:40:22.484  INFO 38946 --- [main] c.a.s.MicroserviceLoggingApplication     : Starting MicroserviceLoggingApplication on Amits-MacBook-Pro.local with PID 38946 (/Users/amitsharma/eclipse-workspace/microservice-logging/target/classes started by amitsharma in /Users/amitsharma/eclipse-workspace/microservice-logging)
+2020-04-24 10:40:22.486  INFO 38946 --- [main] c.a.s.MicroserviceLoggingApplication     : No active profile set, falling back to default profiles: default
+2020-04-24 10:40:23.059  INFO 38946 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-04-24 10:40:23.065  INFO 38946 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-24 10:40:23.065  INFO 38946 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-24 10:40:23.110  INFO 38946 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-24 10:40:23.110  INFO 38946 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 595 ms
+2020-04-24 10:40:23.230  INFO 38946 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-24 10:40:23.358  INFO 38946 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path ''
+2020-04-24 10:40:23.361  INFO 38946 --- [main] c.a.s.MicroserviceLoggingApplication     : Started MicroserviceLoggingApplication in 1.159 seconds (JVM running for 1.565)
+2020-04-24 10:40:27.576  INFO 38946 --- [http-nio-9988-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-24 10:40:27.576  INFO 38946 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-24 10:40:27.580  INFO 38946 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-04-24 10:41:22.046  INFO 38946 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-24 10:41:22.049  INFO 38946 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-24 10:41:23.281  INFO 38947 --- [main] c.a.s.MicroserviceLoggingApplication     : Starting MicroserviceLoggingApplication on Amits-MacBook-Pro.local with PID 38947 (/Users/amitsharma/eclipse-workspace/microservice-logging/target/classes started by amitsharma in /Users/amitsharma/eclipse-workspace/microservice-logging)
+2020-04-24 10:41:23.284  INFO 38947 --- [main] c.a.s.MicroserviceLoggingApplication     : No active profile set, falling back to default profiles: default
+2020-04-24 10:41:23.844  INFO 38947 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-04-24 10:41:23.851  INFO 38947 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-24 10:41:23.851  INFO 38947 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-24 10:41:23.891  INFO 38947 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-24 10:41:23.891  INFO 38947 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 579 ms
+2020-04-24 10:41:24.011  INFO 38947 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-24 10:41:24.135  INFO 38947 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path ''
+2020-04-24 10:41:24.138  INFO 38947 --- [main] c.a.s.MicroserviceLoggingApplication     : Started MicroserviceLoggingApplication in 1.144 seconds (JVM running for 1.539)
+2020-04-24 10:41:28.473  INFO 38947 --- [http-nio-9988-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-24 10:41:28.474  INFO 38947 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-24 10:41:28.478  INFO 38947 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-04-24 10:42:18.557  INFO 38947 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-24 10:42:18.559  INFO 38947 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-24 10:48:33.753  INFO 38979 --- [main] c.a.s.MicroserviceLoggingApplication     : Starting MicroserviceLoggingApplication on Amits-MacBook-Pro.local with PID 38979 (/Users/amitsharma/eclipse-workspace/microservice-logging/target/classes started by amitsharma in /Users/amitsharma/eclipse-workspace/microservice-logging)
+2020-04-24 10:48:33.755  INFO 38979 --- [main] c.a.s.MicroserviceLoggingApplication     : No active profile set, falling back to default profiles: default
+2020-04-24 10:48:34.406  INFO 38979 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-04-24 10:48:34.413  INFO 38979 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-24 10:48:34.413  INFO 38979 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-24 10:48:34.462  INFO 38979 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-24 10:48:34.462  INFO 38979 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 673 ms
+2020-04-24 10:48:34.613  INFO 38979 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-24 10:48:34.774  INFO 38979 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path ''
+2020-04-24 10:48:34.777  INFO 38979 --- [main] c.a.s.MicroserviceLoggingApplication     : Started MicroserviceLoggingApplication in 1.325 seconds (JVM running for 1.765)
+2020-04-24 10:50:11.916  INFO 38979 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-24 10:50:11.920  INFO 38979 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-24 10:50:15.164  INFO 39000 --- [main] c.a.s.MicroserviceLoggingApplication     : Starting MicroserviceLoggingApplication on Amits-MacBook-Pro.local with PID 39000 (/Users/amitsharma/eclipse-workspace/microservice-logging/target/classes started by amitsharma in /Users/amitsharma/eclipse-workspace/microservice-logging)
+2020-04-24 10:50:15.169  INFO 39000 --- [main] c.a.s.MicroserviceLoggingApplication     : No active profile set, falling back to default profiles: default
+2020-04-24 10:50:16.341  INFO 39000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9988 (http)
+2020-04-24 10:50:16.353  INFO 39000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-24 10:50:16.354  INFO 39000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-24 10:50:16.445  INFO 39000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-24 10:50:16.445  INFO 39000 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1195 ms
+2020-04-24 10:50:16.669  INFO 39000 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-24 10:50:16.902  INFO 39000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9988 (http) with context path ''
+2020-04-24 10:50:16.907  INFO 39000 --- [main] c.a.s.MicroserviceLoggingApplication     : Started MicroserviceLoggingApplication in 2.639 seconds (JVM running for 4.102)
+2020-04-24 10:51:00.931  INFO 39000 --- [http-nio-9988-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-24 10:51:00.931  INFO 39000 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-24 10:51:00.937  INFO 39000 --- [http-nio-9988-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-04-24 10:51:00.966  INFO 39000 --- [http-nio-9988-exec-1] com.amit.sample.LogController            : Request Param :vikram
+2020-04-24 10:51:10.336 ERROR 39000 --- [http-nio-9988-exec-2] com.amit.sample.LogController            : Exception java.lang.Exception
+2020-04-24 10:51:12.217 ERROR 39000 --- [http-nio-9988-exec-4] com.amit.sample.LogController            : Exception java.lang.Exception
+2020-04-24 10:51:13.063 ERROR 39000 --- [http-nio-9988-exec-5] com.amit.sample.LogController            : Exception java.lang.Exception
+2020-04-24 10:51:13.904 ERROR 39000 --- [http-nio-9988-exec-6] com.amit.sample.LogController            : Exception java.lang.Exception
+2020-04-24 10:51:15.076 ERROR 39000 --- [http-nio-9988-exec-7] com.amit.sample.LogController            : Exception java.lang.Exception
+2020-04-24 10:51:16.209 ERROR 39000 --- [http-nio-9988-exec-8] com.amit.sample.LogController            : Exception java.lang.Exception
+2020-04-24 10:51:17.047 ERROR 39000 --- [http-nio-9988-exec-9] com.amit.sample.LogController            : Exception java.lang.Exception

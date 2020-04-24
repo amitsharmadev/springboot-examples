@@ -1,0 +1,8 @@
+    
+server:
+  port: 9988
+  
+logging:
+  file: another-log.log
+  level:
+    root: info

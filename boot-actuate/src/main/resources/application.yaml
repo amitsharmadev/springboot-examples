@@ -1,0 +1,15 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+        exclude:
+        - metrics
+      base-path: /pool
+
+
+  
+#hdebug: true
+
+

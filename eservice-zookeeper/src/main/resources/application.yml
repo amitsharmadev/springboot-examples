@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: myzookeeper-service
+  cloud:
+    zookeeper:
+      discovery:
+        enabled:  true
+      connect-string: localhost:2181  
+
+logging:
+  level:
+    org.apache.zookeeper.client: WARN
+    
+
+server:
+  port: 6080
+

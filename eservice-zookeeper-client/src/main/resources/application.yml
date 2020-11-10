@@ -1,0 +1,11 @@
+
+logging:
+  level:
+    org.apache.zookeeper.cli: WARN
+
+spring:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+server:
+  port: 6081

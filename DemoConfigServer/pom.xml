@@ -6,72 +6,60 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.6.RELEASE</version>
+		<version>2.4.5</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.amit</groupId>
-	<artifactId>e-service</artifactId>
+	<groupId>com.example.amit</groupId>
+	<artifactId>DemoConfigServer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>e-service</name>
+	<name>DemoConfigServer</name>
 	<description>Demo project for Spring Boot</description>
-
 	<properties>
 		<java.version>1.8</java.version>
-		<spring-cloud.version>Hoxton.SR3</spring-cloud.version>
+		<spring-cloud.version>2020.0.2</spring-cloud.version>
 	</properties>
-
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		
-		<!-- This is a cloud config client library -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
-			<version>2.2.5.RELEASE</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bus-amqp -->
+<!-- Cloud bus dependency just added to get updated configuration notified from Remote/Local git -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
 			<version>3.0.2</version>
 		</dependency>
+		<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-config-monitor</artifactId>
+    <version>2.2.2.RELEASE</version>
+</dependency>
 
+<dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+	<version>3.0.4.RELEASE</version>
+</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-			<version>2.4.5</version>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>
+				spring-cloud-starter-netflix-eureka-client
+			</artifactId>
+		</dependency>
+		
+		<!-- Actuator dependency just added to get Spring Cloud Bus endpoints  -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		
 	</dependencies>
-
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
